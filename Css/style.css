@@ -1,0 +1,82 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generics */
+body{
+    font-family: sans-serif;
+}
+
+.img{
+    height: 400px;
+}
+
+img{
+    height: 100%;
+}
+
+/* Utils */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.red{
+    color: red;
+}
+
+.barred{
+    text-decoration: line-through;
+}
+
+/* Header */
+header{
+    height: 100px;
+    background-color: darkorange;
+    margin-bottom: 50px;
+}
+
+/* Main */
+.flex-container{
+    display: flex;
+}
+
+.col-1{
+    position: relative;
+}
+
+.absolute-col-1{
+    position: absolute;
+    bottom: 20px;
+    left: 0; 
+    margin-right: 10px;
+    padding: 5px;
+    font-size: smaller;
+    background-color: red;
+    color: white;
+}
+
+.absolute-col-2{
+    position: absolute;
+    bottom: 20px;
+    left: 40px; 
+    padding: 5px;
+    margin-left: 5px;
+    font-size: smaller;
+    background-color: green;
+    color: white;
+}
+
+.hearts{
+    position: absolute;
+    top: 7px;
+    right: 0;
+    padding: 5px;
+    background-color: white;
+}
+
+
+
