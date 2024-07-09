@@ -10,13 +10,14 @@ body{
     font-family: sans-serif;
 }
 
-.img{
-    position: absolute;
+.col-items{
     height: 400px;
+    position: relative;
 }
 
 img{
     height: 100%;
+    display: inline-block
 }
 
 /* Utils */
@@ -35,7 +36,7 @@ img{
 
 /* Header */
 header{
-    height: 100px;
+    display: flex;
     background-color: darkorange;
     margin-bottom: 50px;
 }
@@ -46,12 +47,37 @@ nav{
 /* Main */
 .flex-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.col-1, col-2, col-3{
+.col-1{
+    position: relative;
+    background-image: url("../img/1.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.col-2{
     position: relative;
 }
+
+.col-3{
+    position: relative;
+}
+
+.col-4{
+    position: relative;
+}
+
+.col-5{
+    position: relative;
+}
+
+.col-6{
+    position: relative;
+}
+
 
 .absolute-col-1{
     position: absolute;
@@ -83,5 +109,12 @@ nav{
     background-color: white;
 }
 
+.hearts:hover{
+    color: red;
+}
+
+.col-1:hover{
+    background-image: url(../img/1b.webp);
+}
 
 
