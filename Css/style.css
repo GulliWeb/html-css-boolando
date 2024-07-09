@@ -40,6 +40,9 @@ header{
     margin-bottom: 50px;
 }
 
+nav{
+    display: flex;
+}
 /* Main */
 .flex-container{
     display: flex;
