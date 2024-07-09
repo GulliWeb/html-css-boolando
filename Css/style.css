@@ -153,4 +153,11 @@ col-3:hover #img-hover{
     display: inline-block;
 }
 
-
+/* Footer */
+footer{
+    height: 200px;
+    background-color: gray;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
